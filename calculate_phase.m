@@ -1,5 +1,6 @@
 % 根据给定最优角度返回对应CSP子带滤波器map
 % 需要输入的角度为弧度制
+% 默认method为1使用任意角度
 function [ret_phase, ret_index] = calculate_phase(image, scale_total, orientation_total, optimal_angle)
     ret_phase = [];
     ret_index = [];
